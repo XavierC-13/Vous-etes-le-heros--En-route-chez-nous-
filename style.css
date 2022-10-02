@@ -1,0 +1,167 @@
+@font-face {
+    src: url(font/TravelingTypewriter.ttf) format('truetype');
+    font-family:"TTw";
+}
+@font-face {
+    src: url(font/AmaticSC-Bold.ttf) format('truetype');
+    font-family:"AmaticSCB";
+}
+@font-face {
+    src: url(font/PermanentMarker-Regular.ttf) format('truetype'); 
+    font-family: "PermanentM";
+}
+
+body{
+    display:flex; justify-content:center;
+    z-index: -1;
+    background-color: #000116;
+    background-repeat: no-repeat;
+}
+
+.mise_en_contexte{
+    height: 100%;
+    background-image: url(img/party_red.jpg);
+    background-position: center;
+    
+}
+
+.uber{
+    background-color: #000116;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-image: url(img/walker_bc.jpg);
+    background-position: top center;
+}
+
+.game{
+    width: 700px;
+    min-height: 100px; 
+    background-color: #0F0C1C;
+    color: #EDE9C5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    border: 6px double #EDE9C5;
+    border-radius: 10px;
+    box-shadow: inset 0 0 20px 5px #FFC917, 0 0 20px 10px #FFC917 ;
+    padding-bottom: 40px;
+    z-index: 2;
+}
+
+.myTitle{
+    font-family: "PermanentM";
+    font-size: 52px;
+    text-decoration: underline;
+}
+
+.mySubtitle{
+    font-family:"PermanentM" ;
+    font-size:30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.mySubtitleF{
+    font-family:"PermanentM" ;
+    font-size:30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #FF3E29;
+}
+
+.mySubtitleW{
+    font-family:"PermanentM" ;
+    font-size:30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #FFC917;
+}
+
+.myText{
+    font-family: "TTw";
+    font-size: 20px;
+    text-align: center;
+    width: 500px;
+}
+
+.myTextC{
+    font-family: "TTw";
+    font-size: 20px;
+    text-align: center;
+    width: 500px;
+    color: #FF9442;
+}
+
+.image:not(.image2){
+    max-width: 650px;
+    object-fit: cover;
+    width: 450px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+    border: 4px solid #FF3E29;
+    box-shadow: 0 0 5px 5px #ff3e28;
+}
+
+.image img{
+    width: 450px;
+   
+}
+
+.image2{
+    max-width: 650px;
+    object-fit: cover;
+    width: 600px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    
+}
+
+.image2 img{
+    width: 280px;
+    border: 4px solid #FF3E29;
+    box-shadow: 0 0 5px 5px #ff3e28;
+}
+
+button{
+    font-family: "TTw";
+    font-size: 18px;
+    color: #0F0C1C;
+    background-color: #FF9442;
+    box-shadow: inset 0 0 8px 8px #ff3e28;
+  width: 190px;
+  height: 60px;
+}
+
+.bouton3{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bouton2{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boutonp button{
+    width: 200px;
+    height: 70px;
+}
+
+.boutonp{
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button:hover{
+    background-color: #FFC917;
+    box-shadow: inset 0 0 8px 8px #FF9442;
+}
