@@ -66,8 +66,22 @@ let chaptersObj = {
       ]
     },
     
-    
-
+    uber: {
+      subtitle: "Uber Driver?",
+      text: "Le chauffeur du Uber à l'aire un peu suspect, préfères-tu marcher ou sa vaux pas la peine?",
+      img: "img/uber_driver.jpg",
+      options: [
+        {
+          text: "Marcher 1h de trajet",
+          action: "goToChapter(`marche_choix_chemin`)"
+        },
+        {
+          text: "ignorer les stéréotypes",
+          action: "goToChapter(`maison`)"
+        },
+      ]
+    },
+ 
 
 
 
