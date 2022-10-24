@@ -6,4 +6,6 @@ https://smnarnold.com/projets/vous-etes-le-heros
 <p><strong>Genre:</strong> Thriller, Aventure, Suspense</p>
 <p><strong>Inspiration:</strong>Sans objet</p>
 <p><strong>Palette de couleur:</strong><a href="https://coolors.co/0f0c1c-ede9c5-ff9442-fa824c-ff3e29">here!</a></p>
+
 # Diagramme:<img src="assets/img/schema.png">
+
